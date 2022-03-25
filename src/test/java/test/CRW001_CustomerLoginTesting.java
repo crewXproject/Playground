@@ -21,7 +21,7 @@ public class CRW001_CustomerLoginTesting extends commonMethods{
 		custPage.usernameLoginInput.sendKeys(PropertiesReader.getProperty("customerEmail"));
 		custPage.passwordLoginInput.sendKeys(PropertiesReader.getProperty("customerPassword"));
 		custPage.loginButton.click();
-		Risa is a bitch!
+		Risa is a b!
 	}
 
 	@AfterTest
