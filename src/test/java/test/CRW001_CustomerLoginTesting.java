@@ -19,7 +19,7 @@ public class CRW001_CustomerLoginTesting extends commonMethods{
 		printMsg("phpTravel testCase");
 		//Login with valid username and password
 		custPage.usernameLoginInput.sendKeys(PropertiesReader.getProperty("customerEmail"));
-		//changing sth.
+		
 		custPage.passwordLoginInput.sendKeys(PropertiesReader.getProperty("customerPassword"));
 		custPage.loginButton.click();
 		
